@@ -1,0 +1,39 @@
+html {
+  background-color: beige;
+  font-size: 20px;
+}
+
+p.cats {
+  font-size: 20px;
+  border: 5px solid purple;
+  padding: 30px;
+  color: brown;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+p {
+  color:blueviolet;
+}
+span.the-cats {
+  color: blue;
+  font-weight:bold;
+}
+
+ul {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+li {
+  margin-left: 20px;
+}
