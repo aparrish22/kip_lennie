@@ -62,4 +62,21 @@ ul {
   font-weight: bold;
 }
 
+/* kip & lennie :) */
+dd strong {
+  font-size: 24px;
+  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#bottom-link:link {
+  color: red;
+}
+
+#bottom-link:visited {
+  color: green;
+}
+
 /* comment */
