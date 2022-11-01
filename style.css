@@ -37,3 +37,29 @@ ul {
 li {
   margin-left: 20px;
 }
+
+/* i want to try to only access/select the ul in Facts section */
+/* facts.ul doesnt work */
+/* boom here we go */
+
+#facts ul {
+  color: rgb(255, 0, 0);
+}
+
+ul {
+  list-style-type: circle;
+}
+
+/* #<name> is an id selector */
+#facts {
+  background-image: linear-gradient(purple,blue);
+  
+}
+
+/* '.<name>' is a class selector */
+.special {
+  color: rgb(0, 72, 255);
+  font-weight: bold;
+}
+
+/* comment */
