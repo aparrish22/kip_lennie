@@ -3,6 +3,16 @@ html {
   font-size: 20px;
 }
 
+body {
+  text-align: left;
+}
+
+/* temp fix on image loc */
+.kip_lennie {
+  transform: scale(1.5);
+  margin: 10%;
+}
+
 p.cats {
   font-size: 20px;
   border: 5px solid purple;
@@ -11,7 +21,7 @@ p.cats {
 }
 
 img {
-  border: 1px solid #ddd;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   padding: 5px;
   width: 250px;
@@ -62,13 +72,31 @@ ul {
   font-weight: bold;
 }
 
+dt {
+  font-size: 28px;
+  font-weight: bold;
+}
+
 /* kip & lennie :) */
-dd strong {
+.kip-name {
   font-size: 24px;
-  background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
+  background: -webkit-linear-gradient(45deg, #09009f, #00e1ff, #00ff1e 80%);
   background-clip: padding-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.lennie-name {
+  font-size: 24px;
+  background: -webkit-linear-gradient(45deg, #000000, #ff00f7 80%);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.code {
+  border: 5px solid black;
+  color: purple;
 }
 
 #bottom-link:link {
@@ -77,6 +105,10 @@ dd strong {
 
 #bottom-link:visited {
   color: green;
+}
+
+#bottom-link:hover {
+  text-decoration: green wavy underline;
 }
 
 /* comment */

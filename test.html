@@ -16,10 +16,7 @@
   <main>
     <span id="top"></span>
     <h1>Austin & Mac's Cats!</h1>
-    <h3>I had two cats: <strong><em>Kip & Lennie</em></strong>!</h3>
-    <img id="mozilla-firefox"
-    src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="Firefox icon" 
-    />
+    <h3><strong>Kip & Lennie!</strong></h3>
     <p class="cats">
       <span class="the-cats">KIP & LENNIE</span>
       are the best cats ever. Probably Purebred but most likely mixed.
@@ -32,7 +29,6 @@
       「私はオスタン。よろしくお願いしますよう！」
     </p>
     <img class="kip_lennie" src="kip_lennie.jpeg" alt="Kip and Lennie">
-    <a href="https://www.google.com" title="Google" target="_blank">Google!</a>
     <p>
       <div id="facts">
         <ul>
@@ -53,14 +49,14 @@
         <dl>
           <dt>Kip's Personality</dt>
             <dd>
-              <strong>Kip</strong> is pretty laid back and chills most of the time. Kip loves spending time with
+              <strong class="kip-name">Kip</strong> is pretty laid back and chills most of the time. Kip loves spending time with
               his brother Lennie and often times he will take a nap or rest beside
               you. And Kip has the cutest, little meow ever! So high-pitched!
             </dd>
             <hr />
           <dt>Lennie's Personality</dt>
             <dd>
-              <strong>Lennie</strong> is the bane of our existence. He's cute and all, but he is an
+              <strong class="lennie-name">Lennie</strong> is the bane of our existence. He's cute and all, but he is an
               absolute <em>annoyance</em> in the morning. Usually he will meow pretty loud 
               to get food whenever he wants. However, Lennie is an absolute
               monster when he gets our attention in the mornings to satiate his
@@ -75,17 +71,19 @@
     </p>
     <p>
       Let's try some code!
-      <pre>
-        def _feed_cats():
-            <var>meow_mix</var> = Food(cat_food)
-            kip = Cat(black, Austin, yrs=1)
-            lennie = Cat(black, Mac, yrs=1)
-            if kip.isHungry and lennie.isHungry:  
-              kip.feed(meow_mix)
-              lennie.feed(meow_mix)
-            else:
-              print("It's not time to feed you guys yet!")
-      </pre>
+      <div class="code">
+        <pre>
+          def _feed_cats():
+              <var>meow_mix</var> = Food(cat_food)
+              kip = Cat(black, Austin, yrs=1)
+              lennie = Cat(black, Mac, yrs=1)
+              if kip.isHungry and lennie.isHungry:  
+                kip.feed(meow_mix)
+                lennie.feed(meow_mix)
+              else:
+                print("It's not time to feed you guys yet!")
+        </pre>
+      </div>
     </p>
     <hr> 
     <!-- Leave this here so that user can go back to the top of webpage! -->
