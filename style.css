@@ -1,10 +1,26 @@
+@import "another_style.css";
+
 html {
   background-color: beige;
   font-size: 20px;
 }
 
+@media (max-width: 600px) {
+  html {
+    background-color: antiquewhite;
+  }
+}
+
 body {
   text-align: left;
+}
+
+@media (min-width: 600px) {
+  /* Increase the global font size on larger screens or windows
+     for better readability */
+  body {
+    font-size: 130%;
+  }
 }
 
 /* temp fix on image loc */
