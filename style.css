@@ -24,9 +24,15 @@ body {
 }
 
 /* temp fix on image loc */
-.kip_lennie {
+/* FIXED: 
+  Using Percentages is scaling the content.
+  Using px will instead set it at a FIXED point!
+*/
+.kip_lennie_img {
   transform: scale(1.5);
-  margin: 10%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 80px;
 }
 
 p.cats {
